@@ -1,0 +1,23 @@
+<html>
+<head>
+    
+    <title>EDAD DE UN USUARIO</title> <meta charset="utf-8">
+    <script type="text/javascript">
+    function sumar(){
+        let numA = prompt ("Ingrese un numero");
+        let numB = prompt ("Ingrese otro numero");
+        let sumatoria= parseFloat(numA)+parseFloat(numB);
+        document.getElementById('resultado').innerHTML = sumatoria;
+    }
+    </script>
+    </head>
+    
+    <body style="color: aqua">    <body style="color: aqua">
+        <h1 style="text-align:center;">SUMA DE DOS NUMEROS</h1> 
+        <form>
+            <input type="button" onclick="sumar()" value="Introduce datos"/>
+             </form>
+        <h3>El resultado de la suma es:</h3>
+        <p id="resultado"></p>
+    </body>
+</html>
